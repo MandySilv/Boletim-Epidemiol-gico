@@ -1,0 +1,57 @@
+
+.PAI{
+    border: 2px solid black;
+    width: 50%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+/* img{
+  
+    height: auto;
+    width: 60%;
+    margin: 0 auto 0  auto ;
+    
+   
+} */
+
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 70px;
+}
+   .CONFINADOS, .SUSPEITOS, .RECUPERADOS, .INTERNADOS, .DESCARTADOS{
+    width: 550px;
+    height: 550x;
+    margin: 15px;
+    border: 20px;
+    text-align: center;
+    
+}
+    body{
+        background-image: url("../imagens/coronaSUS.png");
+        align-items: center;
+     }
+    
+     table{
+
+        width: 900px;
+        height: 900px;
+        margin: auto;
+        background-color: rgb(235, 196, 196);
+        border: 2px solid black;
+        font-size: 65px;
+        text-align: center;
+        
+     }
+
+     table, th, td{
+        border: 2px solid black;
+
+     }
